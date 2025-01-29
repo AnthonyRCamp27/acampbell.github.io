@@ -1,6 +1,6 @@
 # **Anthony Campbell**
 ## Milwaukee, WI | St.Louis, MO
-## [campb575@uwm.edu]campb575@uwm.edu(School) | [rashadcamp2001@gmail.com]rashadcamp2001@gmail.com(Personal)
+## campb575@uwm.edu (School) | rashadcamp2001@gmail.com (Personal)
 ## [Instagram](https://www.instagram.com/antho_618/)
 
 ## About this Website
@@ -23,4 +23,4 @@ This website serves as my professional portfolio, highlighting my academic cours
 - Work Place 2
 
 
-# © 2025 Anthony Rashad Campbell
+### © 2025 Anthony Rashad Campbell
