@@ -1,4 +1,11 @@
-# acampbell.github.io
+# **Anthony Campbell**
+## Milwaukee, WI | St.Louis, MO
+## [campb575@uwm.edu]campb575@uwm.edu(School) | [rashadcamp2001@gmail.com]rashadcamp2001@gmail.com(Personal)
+## [Instagram](https://www.instagram.com/antho_618/)
+
+## About this Website
+***
+This website serves as my professional portfolio, highlighting my academic coursework, work history, and personal projects. It is designed to provide a comprehensive overview of my journey as a developer, featuring detailed sections on the courses I've completed, the professional roles I've held, and the projects I've built. From hands-on coding assignments and collaborative team projects to real-world applications I've developed, this site demonstrates my technical skills, problem-solving abilities, and growth over time. Whether you're a potential employer, collaborator, or fellow developer, this portfolio offers a clear and organized way to explore my expertise and accomplishments.
 
 ## Projects
 ### Project 1
@@ -14,3 +21,6 @@
 # Work History
 - Work Place 1
 - Work Place 2
+
+
+# © 2025 Anthony Rashad Campbell
