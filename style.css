@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, gold, black); /* keep your gold-to-black gradient */
-  color: white;
+  color: black;
   line-height: 1.6;
   position: relative; /* make sure ::before positions relative to body */
   overflow-x: hidden;
