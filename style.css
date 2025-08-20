@@ -47,7 +47,7 @@ body::before {
 header {
   background: black; /* Black background */
   color: gold; /* Gold text */
-  padding: 60px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
