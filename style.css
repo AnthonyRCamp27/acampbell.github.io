@@ -9,13 +9,13 @@ html, body {
   padding: 0;
 }
 
-/* Paint the viewport itself so white never shows */
+
 html {
   background: linear-gradient(to bottom, var(--uwm-gold), var(--uwm-black));
   background-attachment: fixed; /* prevents repaint flashes on scroll */
 }
 
-/* Body is transparent so the html gradient always shows through */
+
 body {
   font-family: 'Roboto', sans-serif;
   background: transparent !important;  /* defeats accidental overrides */
@@ -26,7 +26,7 @@ body {
   min-height: 100vh;                    /* ensure full height */
 }
 
-/* Watermark stays behind everything, never paints white */
+
 body::before {
   content: "";
   position: fixed;
