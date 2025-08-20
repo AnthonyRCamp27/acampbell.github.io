@@ -12,18 +12,18 @@ html, body {
 
 html {
   background: linear-gradient(to bottom, var(--uwm-gold), var(--uwm-black));
-  background-attachment: fixed; /* prevents repaint flashes on scroll */
+  background-attachment: fixed; 
 }
 
 
 body {
   font-family: 'Roboto', sans-serif;
-  background: transparent !important;  /* defeats accidental overrides */
-  color: black;                         /* your current choice; switch to var(--uwm-gold) if desired */
+  background: transparent !important;  
+  color: white;                        
   line-height: 1.6;
   position: relative;
   overflow-x: hidden;
-  min-height: 100vh;                    /* ensure full height */
+  min-height: 100vh;                   
 }
 
 
