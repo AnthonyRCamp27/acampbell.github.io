@@ -1,29 +1,42 @@
-/* General Styles */
-body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, gold, black); /* keep your gold-to-black gradient */
-  color: black;
-  line-height: 1.6;
-  position: relative; /* make sure ::before positions relative to body */
-  overflow-x: hidden;
+:root {
+  --uwm-gold: #FFB81C;
+  --uwm-black: #000000;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+/* Paint the viewport itself so white never shows */
+html {
+  background: linear-gradient(to bottom, var(--uwm-gold), var(--uwm-black));
+  background-attachment: fixed; /* prevents repaint flashes on scroll */
+}
+
+/* Body is transparent so the html gradient always shows through */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: transparent !important;  /* defeats accidental overrides */
+  color: black;                         /* your current choice; switch to var(--uwm-gold) if desired */
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;                    /* ensure full height */
+}
+
+/* Watermark stays behind everything, never paints white */
 body::before {
   content: "";
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0; /* shorthand: top/right/bottom/left 0 */
   background: url('docs/assets/Logo.png') center center no-repeat;
-  background-size: 400px auto; /* adjust size as needed */
-  opacity: 0.05; /* make it subtle */
-  z-index: -1; /* keep it behind all content */
+  background-size: 400px auto;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: -1;  /* safe because the gradient is on html now */
 }
-
 .container {
   width: 90%;
   max-width: 1200px;
